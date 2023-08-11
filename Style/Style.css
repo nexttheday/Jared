@@ -1,0 +1,26 @@
+#fire_button {
+	max-width: 300px;
+	max-height: 300px;
+    background: #f0f0f0; /* Цвет фона */
+    border-radius: 50px; /* Радиус скругления */
+    padding: 4vw; /* Поля */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#fire_button:active {
+    background: #80B73E; /* Цвет фона */	
+}
+
+#Text_Balls{
+	width: 50%;
+	background: #f0f0f0;
+	border-radius: 25px;
+	height: 8vw;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 7vw;
+	color: blue;
+}
